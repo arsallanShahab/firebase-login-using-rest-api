@@ -119,11 +119,40 @@ Welcome to the Phone Login with Firebase project! This is not your ordinary Fire
 
 ## 🚀 Deployment
 
-This project is deployed on [Render](https://render.com/). You can check out the live version [here](link-to-live-version).
+This project is deployed on [Render](https://render.com/).
+
+ <!-- You can check out the live version [here](link-to-live-version). -->
 
 ## 📂 Folder Structure
 
 Here's a high-level overview of our project's folder structure:
+
+```bash
+firebase-login-using-rest-api
+
+├── src
+│   ├── controllers
+│   │   ├── auth.controller.ts
+│   │   ├── health.controller.ts
+│   │   ├── user.controller.ts
+│   ├── middleware
+│   │   ├── auth.middleware.ts
+│   ├── routes
+│   │   ├── auth.routes.ts
+│   │   ├── health.routes.ts
+│   │   ├── user.routes.ts
+│   ├── services
+│   │   ├── auth.service.ts
+│   │   ├── user.service.ts
+│   ├── utils
+│   │   ├── error-handler.ts
+│   │   ├── rate-limiter.ts
+│   ├── server.ts
+├── .env
+├── .gitignore
+├── package.json
+├── README.md
+```
 
 ## 🎓 Learn More
 
@@ -131,7 +160,7 @@ If you're new to Firebase or Express, here are a few resources to get you starte
 
 - [Firebase Documentation](https://firebase.google.com/docs)
 - [Express Documentation](https://expressjs.com/)
-- [Firebase Phone Authentication Tutorial](link-to-tutorial)
-- [Building a REST API with Express Tutorial](link-to-tutorial)
+<!-- - [Firebase Phone Authentication Tutorial](link-to-tutorial)
+- [Building a REST API with Express Tutorial](link-to-tutorial) -->
 
 Remember, the best way to learn is by doing. Don't be afraid to make changes to the code and see what happens! Happy coding! 🚀
